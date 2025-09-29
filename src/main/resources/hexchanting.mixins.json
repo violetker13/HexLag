@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "gay.thehivemind.hexchanting.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "LivingEntityMixin",
+    "MobEntityMixin",
+    "OpBreakBlockSpellMixin",
+    "PlayerEntityMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
