@@ -41,4 +41,4 @@ per_world_value = "{^_per_world_value}"
 
 [_common]
 src = "../src"
-package = "{src}/main/kotlin/gay/thehivemind/hexchanting"
+package = "{src}/main/kotlin/violetker13/thehivemind/hexchanting"

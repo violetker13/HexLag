@@ -1,36 +1,37 @@
+
 {
   "schemaVersion": 1,
-  "id": "hexchanting",
+  "id": "hexlag",
   "version": "${version}",
-  "name": "Hexchanting",
-  "description": "Imbue amethyst equipment with Hex Casting programs.",
+  "name": "HexLag",
+  "description": "Additions some things.",
   "authors": [
-    "ArcOnyx"
+    "violetker13"
   ],
   "contact": {
-    "sources": "https://github.com/arconyx/hexchanting"
+    "sources": "https://github.com/violetker13/HexLag"
   },
   "license": "MIT",
-  "icon": "assets/hexchanting/icon.png",
+  "icon": "assets/hexlag/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       {
-        "value": "gay.thehivemind.hexchanting.Hexchanting",
+        "value": "violetker13.Hex.HexLag.HexLag",
         "adapter": "kotlin"
       }
     ],
     "client": [
       {
-        "value": "gay.thehivemind.hexchanting.HexchantingClient",
+        "value": "violetker13.Hex.HexLag.HexLagClient",
         "adapter": "kotlin"
       }
     ]
   },
   "mixins": [
-    "hexchanting.mixins.json",
+    "hexlag.mixins.json",
     {
-      "config": "hexchanting.client.mixins.json",
+      "config": "hexlag.client.mixins.json",
       "environment": "client"
     }
   ],

@@ -1,0 +1,51 @@
+{
+  "name": "Imbuing",
+  "category": "hexcasting:patterns",
+  "icon": "minecraft:stick",
+  "sortnum": 12,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Imbuing allows you to enhance your tools and weapons with magical properties."
+    },
+
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexlag:hexlag_delay",
+      "anchor": "hexlag:hexlag_delay",
+      "input": "",
+      "output": "",
+      "text": "Write in chat some"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Make sure you have the required materials for the imbuing process."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Once ready, place your item on the imbuing altar to start the enchantment."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Tools can be enhanced to improve efficiency and durability."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Weapons like swords gain extra power when imbued."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Arrows can also be enchanted to carry magical effects."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Armour pieces provide better protection with enchantments."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Follow the magical patterns carefully to successfully imbue your equipment."
+    }
+  ]
+}
