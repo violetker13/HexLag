@@ -36,7 +36,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"hexchanting" {
+		"hexlag" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

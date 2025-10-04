@@ -11,11 +11,13 @@ import at.petrak.hexcasting.common.lib.hex.HexActions
 import net.minecraft.registry.Registry
 import net.minecraft.util.Identifier
 import violetker13.Hex.HexLag.HexLag.MOD_ID
+import violetker13.Hex.HexLag.spells.hexlag_ConjureArrow
 
 object HexLagPatterns {
     @JvmStatic
     fun init() {
-        register("hexlag_delay", "wqawqwdeeqewd", HexDir.EAST, hexlag_delay())
+        register("hexlag_delay", "aqdeeewdwwd", HexDir.SOUTH_WEST, hexlag_delay())
+        register("hexlag_conjurearrow","wwdedqde", HexDir.NORTH_EAST, hexlag_ConjureArrow() )
     }
 
 
