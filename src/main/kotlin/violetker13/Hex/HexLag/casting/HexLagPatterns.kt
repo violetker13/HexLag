@@ -16,7 +16,7 @@ import violetker13.Hex.HexLag.spells.hexlag_ConjureArrow
 object HexLagPatterns {
     @JvmStatic
     fun init() {
-        register("hexlag_delay", "aqdeeewdwwd", HexDir.SOUTH_WEST, hexlag_delay())
+        //register("hexlag_delay", "aqdeeewdwwd", HexDir.SOUTH_WEST, hexlag_delay())
         register("hexlag_conjurearrow","wwdedqde", HexDir.NORTH_EAST, hexlag_ConjureArrow() )
     }
 

@@ -1,24 +1,16 @@
 {
-  "name": "Delays",
-  "category": "hexcasting:patterns",
-  "icon": "minecraft:clock",
+  "name": "Arrows",
+  "category": "hexcasting:patterns/spells",
+  "icon": "minecraft:arrow",
   "sortnum": 14,
-  "advancement": "hexcasting:enlightenment",
+  "advancement": "hexcasting:root",
   "entry_color": "4B0082",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "hexlag.page.0"
+      "text": "hexlag.page.1"
     },
 
-    {
-      "type": "hexcasting:pattern",
-      "op_id": "hexlag:hexlag_delay",
-      "anchor": "hexlag:hexlag_delay",
-      "input": "list of patterns, number",
-      "output": "many",
-      "text": "hexlag.pattern.hexlag_delay"
-    },
     {
     "type": "hexcasting:pattern",
     "op_id": "hexlag:hexlag_conjurearrow",

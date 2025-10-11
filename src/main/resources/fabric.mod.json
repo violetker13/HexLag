@@ -1,9 +1,9 @@
 
 {
   "schemaVersion": 1,
-  "id": "hexlag",
+  "id": "hexxyarrows",
   "version": "${version}",
-  "name": "HexLag",
+  "name": "HexxyArrows",
   "description": "Additions some things.",
   "authors": [
     "violetker13"
