@@ -28,6 +28,7 @@ import net.minecraft.entity.Entity
 import net.minecraft.entity.projectile.ArrowEntity
 import net.minecraft.entity.projectile.PersistentProjectileEntity
 import net.minecraft.server.network.ServerPlayerEntity
+import violetker13.Hex.HexLag.Entities.HexxyArrowEntity
 
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
@@ -55,7 +56,7 @@ class hexlag_ConjureArrow : Action {
         val player = env.castingEntity as? ServerPlayerEntity ?: throw MishapBadCaster()
         val world = player.world
 
-        val arrow = ArrowEntity(world, player).apply {
+        val arrow = HexxyArrowEntity(world, player).apply {
             setPos(pos.x, pos.y, pos.z)
             pickupType = PersistentProjectileEntity.PickupPermission.DISALLOWED
             setPierceLevel(1)
