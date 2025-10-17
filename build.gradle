@@ -36,7 +36,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"hexxyarrows" {
+		"hextra" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

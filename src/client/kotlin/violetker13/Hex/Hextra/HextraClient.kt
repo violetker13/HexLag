@@ -1,4 +1,4 @@
-package violetker13.Hex.HexLag
+package violetker13.Hex.Hextra
 
 import net.fabricmc.api.ClientModInitializer
 

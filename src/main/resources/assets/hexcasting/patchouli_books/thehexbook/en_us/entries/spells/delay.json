@@ -1,23 +1,23 @@
 {
   "name": "Arrows",
-  "category": "hexcasting:patterns/spells",
+  "category": "hexcasting:hextra/spells",
   "icon": "minecraft:arrow",
-  "sortnum": 14,
+  "sortnum": 1,
   "advancement": "hexcasting:root",
   "entry_color": "4B0082",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "hexlag.page.1"
+      "text": "hextra.page.1"
     },
 
     {
     "type": "hexcasting:pattern",
-    "op_id": "hexlag:hexlag_conjurearrow",
-    "anchor": "hexlag:hexlag_conjurearrow",
+    "op_id": "hextra:hextra_conjurearrow",
+    "anchor": "hextra:hextra_conjurearrow",
     "input": "vector",
     "output": "entity",
-    "text": "hexlag.pattern.hexlag_conjurearrow"
+    "text": "hextra.pattern.hextra_conjurearrow"
     }
   ]
 }

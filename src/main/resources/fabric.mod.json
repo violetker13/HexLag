@@ -1,10 +1,10 @@
 
 {
   "schemaVersion": 1,
-  "id": "hexxyarrows",
+  "id": "hextra",
   "version": "${version}",
-  "name": "HexxyArrows",
-  "description": "Additions some things.",
+  "name": "Hextra",
+  "description": "Just new ExtraThings in HexCasting..",
   "authors": [
     "violetker13"
   ],
@@ -12,26 +12,26 @@
     "sources": "https://github.com/violetker13/HexLag"
   },
   "license": "MIT",
-  "icon": "assets/hexlag/icon.png",
+  "icon": "assets/hextra/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       {
-        "value": "violetker13.Hex.HexLag.HexLag",
+        "value": "violetker13.Hex.Hextra.Hextra",
         "adapter": "kotlin"
       }
     ],
     "client": [
       {
-        "value": "violetker13.Hex.HexLag.HexLagClient",
+        "value": "violetker13.Hex.Hextra.HexLagClient",
         "adapter": "kotlin"
       }
     ]
   },
   "mixins": [
-    "hexlag.mixins.json",
+    "hextra.mixins.json",
     {
-      "config": "hexlag.client.mixins.json",
+      "config": "hextra.client.mixins.json",
       "environment": "client"
     }
   ],
@@ -41,6 +41,6 @@
     "java": ">=17",
     "fabric-api": "*",
     "fabric-language-kotlin": ">=1.10.10+kotlin.1.9.10",
-    "hexcasting": ">=0.11.2-pre-702"
+    "hexcasting": "*"
   }
 }

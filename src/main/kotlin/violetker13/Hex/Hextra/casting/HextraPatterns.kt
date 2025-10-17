@@ -1,7 +1,6 @@
-package violetker13.Hex.HexLag.casting
+package violetker13.Hex.Hextra.casting
 
 import at.petrak.hexcasting.api.casting.math.HexDir
-import violetker13.Hex.HexLag.spells.hexlag_delay
 import at.petrak.hexcasting.api.casting.ActionRegistryEntry
 import at.petrak.hexcasting.api.casting.castables.Action
 
@@ -10,14 +9,14 @@ import at.petrak.hexcasting.common.lib.hex.HexActions
 
 import net.minecraft.registry.Registry
 import net.minecraft.util.Identifier
-import violetker13.Hex.HexLag.HexLag.MOD_ID
-import violetker13.Hex.HexLag.spells.hexlag_ConjureArrow
+import violetker13.Hex.Hextra.Hextra.MOD_ID
+import violetker13.Hex.Hextra.spells.hextra_ConjureArrow
 
-object HexLagPatterns {
+object HextraPatterns {
     @JvmStatic
     fun init() {
         //register("hexlag_delay", "aqdeeewdwwd", HexDir.SOUTH_WEST, hexlag_delay())
-        register("hexlag_conjurearrow","wwdedqde", HexDir.NORTH_EAST, hexlag_ConjureArrow() )
+        register("hextra_conjurearrow","wwdedqde", HexDir.NORTH_EAST, hextra_ConjureArrow() )
     }
 
 

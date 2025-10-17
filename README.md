@@ -1,8 +1,8 @@
-# HexxyArrows
-
+# Hextra
+-- I Change HexxyArrows to Hextra!
 The addon for HexCasting
 
-Add arrows._.
+Add some things.
 
 ## Features
 
