@@ -1,0 +1,5 @@
+{
+  "hextra.page.1": "Вы можете создать настоящую стрелу, но её нельзя подобрать.",
+  "hexcasting.action.hextra:hextra_conjurearrow": "Conjure Arrow",
+  "hextra.pattern.hextra_conjurearrow": "Создает стрелу с вектором 0,0,0 но стрела исчезает через 5 секунд. $(br)Стоит около 100 $(l:items/amethyst)$(item)Аметистовой пыли/$"
+}

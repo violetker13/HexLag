@@ -1,4 +1,4 @@
-package violetker13.Hex.HexLag.Entities
+package violetker13.Hex.Hextra.Entities
 
 import at.petrak.hexcasting.api.casting.ParticleSpray
 import at.petrak.hexcasting.api.pigment.FrozenPigment

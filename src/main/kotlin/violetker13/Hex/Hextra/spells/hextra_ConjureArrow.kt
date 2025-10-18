@@ -1,4 +1,4 @@
-package violetker13.Hex.HexLag.spells
+package violetker13.Hex.Hextra.spells
 
 
 import at.petrak.hexcasting.api.casting.castables.Action
@@ -19,17 +19,18 @@ import at.petrak.hexcasting.common.lib.hex.HexEvalSounds
 
 import net.minecraft.entity.projectile.PersistentProjectileEntity
 import net.minecraft.server.network.ServerPlayerEntity
-import violetker13.Hex.HexLag.Entities.HexxyArrowEntity
+import violetker13.Hex.Hextra.Entities.HexxyArrowEntity
 
 
 
-class hexlag_ConjureArrow : Action {
+class hextra_ConjureArrow : Action {
     override fun operate(
         env: CastingEnvironment,
         image: CastingImage,
         continuation: SpellContinuation
     ): OperationResult {
         if (env !is PlayerBasedCastEnv) throw MishapBadCaster()
+
         if (image.stack.isEmpty())  throw MishapNotEnoughArgs(1, image.stack.size)
         val stack = image.stack.toMutableList()
         val cost = 10L * MediaConstants.CRYSTAL_UNIT

@@ -1,0 +1,7 @@
+{
+  "name": "categories.hextra.hextra.spells",
+  "icon": "hexcasting:scroll_medium",
+  "description": "categories.hextra.hextra.spells.desc",
+  "parent": "hexcasting:hextra",
+  "sortnum": 1
+}
